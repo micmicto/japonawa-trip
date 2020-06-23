@@ -19,7 +19,8 @@ var map = L.map('map').
 setView([41.66, -4.72], 
 14);
  
-L.tileLayer('https://api.mapbox.com/styles/v1/micmict/cikt04lmy007293kpgxautyjo/wmts?access_token=pk.eyJ1IjoibWljbWljdCIsImEiOiJjaWg5cW5ibTUwc2wydWVrdGNqMHRvZG9vIn0.ECk38Nb7lkweJec9sRbjtA', {
+L.tileLayer('https://api.mapbox.com/styles/v1/micmict/cikt04lmy007293kpgxautyjo/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibWljbWljdCIsImEiOiJjaWg5cW5ibTUwc2wydWVrdGNqMHRvZG9vIn0.ECk38Nb7lkweJec9sRbjtA
+', {
     maxZoom: 18
 }).addTo(map);
 
